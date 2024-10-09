@@ -1,0 +1,17 @@
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/ecointerior
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icone_localizacao.png
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/icone_upload.png
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/logo_EcoInterior.png
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin.json
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/linux/x64/debug/bundle/data/flutter_assets/version.json
