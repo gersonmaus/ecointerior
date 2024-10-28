@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class CustomTextformWidget extends StatelessWidget {
-  bool obscure;
+  final bool obscure;
   CustomTextformWidget({
     Key? key,
-    required this.obscure,
+    this.obscure = false,
   }) : super(key: key);
 
   @override
