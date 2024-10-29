@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 26,
               ),
-              CustomTituloWidget(titulo: "< Home Page >")
+              CustomTituloWidget(titulo: "| Home Page |")
             ],
           ),
         ),

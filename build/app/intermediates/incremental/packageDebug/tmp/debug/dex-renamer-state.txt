@@ -1,4 +1,4 @@
-#Sun Oct 27 22:38:34 BRT 2024
+#Tue Oct 29 08:57:06 BRT 2024
 base.0=/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.2=/home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
