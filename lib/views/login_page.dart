@@ -1,5 +1,4 @@
 import 'package:ecointerior/views/cadastro_page.dart';
-import 'package:ecointerior/views/conteudo_page.dart';
 import 'package:ecointerior/views/home_page.dart';
 import 'package:ecointerior/widgets/custom_buttonGoogle_widget.dart';
 import 'package:ecointerior/widgets/custom_button_widget.dart';
