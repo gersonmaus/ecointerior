@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 // ignore: must_be_immutable
 class CustomTextformWidget extends StatelessWidget {
   final bool obscure;
+  final int linhas;
   CustomTextformWidget({
     Key? key,
     this.obscure = false,
+    this.linhas = 1,
   }) : super(key: key);
 
   @override
@@ -20,6 +22,7 @@ class CustomTextformWidget extends StatelessWidget {
         border: InputBorder.none,
       ),
       obscureText: obscure,
+      maxLines: linhas,
     );
   }
 }

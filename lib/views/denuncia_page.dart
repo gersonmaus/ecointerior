@@ -1,4 +1,7 @@
+import 'package:ecointerior/widgets/custom_button_widget.dart';
+import 'package:ecointerior/widgets/custom_label_widget.dart';
 import 'package:ecointerior/widgets/custom_popupmenu_widget.dart';
+import 'package:ecointerior/widgets/custom_textForm_widget.dart';
 import 'package:ecointerior/widgets/custom_titulo_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +29,64 @@ class DenunciaPage extends StatelessWidget {
                 ),
                 CustomTituloWidget(titulo: "Registro de denúncia"),
                 const SizedBox(
-                  height: 26,
+                  height: 22,
+                ),
+                const Text(
+                  "Forneça informações sobre o descarte de lixo que você visualizou. Sua denuncia será encaminhada aos orgãos competentes da região.",
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: Colors.black,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(
+                  height: 18,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: CustomLabelWidget(
+                      label: "Descreva brevemente a sua solicitação"),
+                ),
+                const SizedBox(
+                  height: 8,
+                ),
+                CustomTextformWidget(
+                  linhas: 5,
+                ),
+                const SizedBox(
+                  height: 18,
+                ),
+                Row(
+                  //CRIAR BOTÕES COM IMAGENS "imagens" e "localizacao"
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [],
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  //Checkbox + texto
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    //Checkbox
+                    Expanded(
+                      child: Text(
+                        "Desejo acompanhar a solicitação, recebendo atualizações sobre a situação da denúncia.",
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Colors.black,
+                        ),
+                        textAlign: TextAlign.left,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                CustomButtonWidget(
+                  onPressed: () {},
+                  title: "Registrar denúncia",
                 ),
               ],
             ),

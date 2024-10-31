@@ -35,7 +35,7 @@ class CustomButtonWidget extends StatelessWidget {
       ),
       style: ElevatedButton.styleFrom(
         backgroundColor: cor,
-        padding: EdgeInsets.fromLTRB(100, 10, 100, 10),
+        padding: EdgeInsets.fromLTRB(80, 10, 80, 10),
       ),
     );
   }

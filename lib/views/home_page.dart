@@ -1,4 +1,5 @@
 import 'package:ecointerior/widgets/custom_popupmenu_widget.dart';
+import 'package:ecointerior/widgets/custom_textForm_widget.dart';
 import 'package:ecointerior/widgets/custom_titulo_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,8 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 26,
               ),
-              CustomTituloWidget(titulo: "| Home Page |")
+              CustomTituloWidget(titulo: "| Home Page |"),
+              CustomTextformWidget(),
             ],
           ),
         ),
