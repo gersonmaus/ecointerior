@@ -1,3 +1,5 @@
+import 'package:ecointerior/widgets/custom_button_imagens.dart';
+import 'package:ecointerior/widgets/custom_button_localizacao.dart';
 import 'package:ecointerior/widgets/custom_button_widget.dart';
 import 'package:ecointerior/widgets/custom_label_widget.dart';
 import 'package:ecointerior/widgets/custom_popupmenu_widget.dart';
@@ -5,8 +7,17 @@ import 'package:ecointerior/widgets/custom_textForm_widget.dart';
 import 'package:ecointerior/widgets/custom_titulo_widget.dart';
 import 'package:flutter/material.dart';
 
-class DenunciaPage extends StatelessWidget {
-  const DenunciaPage({super.key});
+//class DenunciaPage extends StatelessWidget {
+class DenunciaPage extends StatefulWidget {
+  DenunciaPage({super.key});
+
+  @override
+  _DenunciaPageState createState() => _DenunciaPageState();
+}
+
+class _DenunciaPageState extends State<DenunciaPage> {
+  //Variavel de controle da checkbox
+  bool _isChecked = false;
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +25,7 @@ class DenunciaPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Center(
           child: Padding(
-            padding: EdgeInsets.all(40),
+            padding: EdgeInsets.all(20),
             child: Column(
               children: <Widget>[
                 Align(
@@ -58,17 +69,30 @@ class DenunciaPage extends StatelessWidget {
                 ),
                 Row(
                   //CRIAR BOTÕES COM IMAGENS "imagens" e "localizacao"
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [],
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    //Botão para carregar imagens
+                    CustomButtonImagensWidget(onPressed: () {}),
+                    //Botão para carregar localização
+                    CustomButtonLocalizacaoWidget(onPressed: () {}),
+                  ],
                 ),
                 const SizedBox(
                   height: 20,
                 ),
                 Row(
                   //Checkbox + texto
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     //Checkbox
+                    Checkbox(
+                      value: _isChecked,
+                      onChanged: (bool? value) {
+                        setState(() {
+                          _isChecked = value ?? false;
+                        });
+                      },
+                    ),
                     Expanded(
                       child: Text(
                         "Desejo acompanhar a solicitação, recebendo atualizações sobre a situação da denúncia.",

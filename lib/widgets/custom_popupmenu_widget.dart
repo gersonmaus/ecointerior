@@ -25,7 +25,7 @@ class CustomPopupmenuWidget extends StatelessWidget {
             );
           } else if (value == "denuncia") {
             Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (context) => const DenunciaPage()),
+              MaterialPageRoute(builder: (context) => DenunciaPage()),
             );
           } else if (value == "conteudo") {
             Navigator.of(context).pushReplacement(

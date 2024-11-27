@@ -1,0 +1,1 @@
+ /home/gamaus/Documentos/Faccat/DesenvMobile/ecointerior/.dart_tool/flutter_build/3bc1b95e531a7128b9725e482ee16bcc/native_assets.yaml: 

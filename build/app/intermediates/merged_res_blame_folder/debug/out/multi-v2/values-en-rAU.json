@@ -4,24 +4,7 @@
             "outputFile": "com.example.ecointerior.app-mergeDebugResources-33:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/6938b97c75ac6554ea4cff811da56f4c/transformed/browser-1.4.0/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,153,250,359",
-                        "endColumns": "97,96,108,98",
-                        "endOffsets": "148,245,354,453"
-                    },
-                    "to": {
-                        "startLines": "11,12,13,14",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "1000,1098,1195,1304",
-                        "endColumns": "97,96,108,98",
-                        "endOffsets": "1093,1190,1299,1398"
-                    }
-                },
-                {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/3d5c2f63a860b91cf6ae308022fbe34a/transformed/core-1.13.1/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/e077d32279ec1e233d26cd8b7fffee57/transformed/core-1.13.1/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/cb21374a9a44efc6709e2c73627f3127/transformed/jetified-credentials-1.2.0-rc01/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/9cc6af6f93dceefc04dbd719b5800094/transformed/browser-1.8.0/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,250,359",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,245,354,453"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1000,1098,1195,1304",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "1093,1190,1299,1398"
+                    }
+                },
+                {
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/6992e58ee523c266d6eb5da24b8d8837/transformed/jetified-credentials-1.2.0-rc01/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

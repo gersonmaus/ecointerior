@@ -1,3 +1,4 @@
+import 'package:ecointerior/views/home_page.dart';
 import 'package:ecointerior/widgets/custom_button_widget.dart';
 import 'package:ecointerior/widgets/custom_label_widget.dart';
 import 'package:ecointerior/widgets/custom_textForm_widget.dart';
@@ -13,7 +14,7 @@ class CadastroPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Center(
           child: Padding(
-            padding: EdgeInsets.all(40),
+            padding: EdgeInsets.all(20),
             child: Column(
               children: <Widget>[
                 Image.asset(
@@ -76,7 +77,14 @@ class CadastroPage extends StatelessWidget {
                 SizedBox(
                   height: 32,
                 ),
-                CustomButtonWidget(onPressed: () {}, title: "Cadastrar"),
+                CustomButtonWidget(
+                    onPressed: () {
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                            builder: (context) => const HomePage()),
+                      );
+                    },
+                    title: "Cadastrar"),
               ],
             ),
           ),

@@ -4,24 +4,17 @@
             "outputFile": "com.example.ecointerior.app-mergeDebugResources-33:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/3d5c2f63a860b91cf6ae308022fbe34a/transformed/core-1.13.1/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/6992e58ee523c266d6eb5da24b8d8837/transformed/jetified-credentials-1.2.0-rc01/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,246,340,434,527,620,716",
-                        "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "142,241,335,429,522,615,711,812"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,33",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "270,362,461,555,649,742,835,3126",
-                        "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "357,456,550,644,737,830,926,3222"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,108",
+                        "endOffsets": "156,265"
                     }
                 },
                 {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/43f3c42ce05604eb7d4ce8a85098c13a/transformed/jetified-play-services-base-18.0.1/res/values-zh-rHK/values.xml",
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/cb8f21706596dd29edff69a0724c9345/transformed/jetified-play-services-base-18.0.1/res/values-zh-rHK/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,34 +31,7 @@
                     }
                 },
                 {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/cb21374a9a44efc6709e2c73627f3127/transformed/jetified-credentials-1.2.0-rc01/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,108",
-                        "endOffsets": "156,265"
-                    }
-                },
-                {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/6938b97c75ac6554ea4cff811da56f4c/transformed/browser-1.4.0/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,138,230,331",
-                        "endColumns": "82,91,100,92",
-                        "endOffsets": "133,225,326,419"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "2757,2840,2932,3033",
-                        "endColumns": "82,91,100,92",
-                        "endOffsets": "2835,2927,3028,3121"
-                    }
-                },
-                {
-                    "source": "/home/gamaus/.gradle/caches/transforms-3/8f3ec40d1a4f86e0db579904428edf5b/transformed/jetified-play-services-basement-18.3.0/res/values-zh-rHK/values.xml",
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/c4ed45e965c8b3cfb8131ada49a463da/transformed/jetified-play-services-basement-18.3.0/res/values-zh-rHK/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -79,6 +45,40 @@
                         "startOffsets": "1795",
                         "endColumns": "107",
                         "endOffsets": "1898"
+                    }
+                },
+                {
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/e077d32279ec1e233d26cd8b7fffee57/transformed/core-1.13.1/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,716",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,812"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,33",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "270,362,461,555,649,742,835,3126",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "357,456,550,644,737,830,926,3222"
+                    }
+                },
+                {
+                    "source": "/home/gamaus/.gradle/caches/transforms-3/9cc6af6f93dceefc04dbd719b5800094/transformed/browser-1.8.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,138,230,331",
+                        "endColumns": "82,91,100,92",
+                        "endOffsets": "133,225,326,419"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2757,2840,2932,3033",
+                        "endColumns": "82,91,100,92",
+                        "endOffsets": "2835,2927,3028,3121"
                     }
                 }
             ]
